@@ -1,0 +1,16 @@
+{
+    "name": "VPN in a box",
+    "id": "vpninabox",
+    "version": "1.0.0",
+    "description": "Ben is just testing stuff",
+    "options": {
+        "dns_server_ip": {
+            "type": "string",
+            "default": "10.0.0.0",
+            "description": "What is the ip address of the dns resolver you would like to connect to?"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

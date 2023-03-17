@@ -1,7 +1,10 @@
 {
     "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
     "features": {
-    },
+        "ghcr.io/devcontainers/feature-starter/hello:1": {
+            "greeting": "Hello"
+        }
+    }
     "remoteUser": "node",
     "updateContentCommand": "npm install -g @devcontainers/cli"
 }
